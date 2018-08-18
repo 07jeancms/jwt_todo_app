@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: 'users', component: UserListComponent },
   { path: 'login', component: LoginComponent},
   // otherwise redirect to home
-  { path: '**', redirectTo: 'todos' }
+  { path: '**', redirectTo: 'login' }
 ];
 
 @NgModule({
